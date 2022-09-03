@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> Calculo compra de maçãs </h1>
+   <script>
+    let numero = parseFloat(prompt("Insira o numero de maçãs compradas: "));
+    let valor1 = 3.50
+    let valor2 = 2.50
+    
+    let calculo = numero * valor1
+    let calculo2 = numero * valor2
+
+    if(numero >=12){
+        document.write ("Valor a pagar é: " + calculo2)
+    }else if(numero <12){
+        document.write ("Valor a ser pago é: " + calculo)
+    }
+    </script>
+</body>
+</html>

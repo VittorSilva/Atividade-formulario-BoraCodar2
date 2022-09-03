@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> Operações com 2 numeros</h1>
+    <script>
+        let numero1 = prompt("Insira um numero para calculo: ")
+        let numero2 = prompt("Insira um novo numero para calculo: ")
+        let operacao = parseInt(prompt("Entre com uma dessas opções: " + "\n" + "1.Adição" + "\n" + "2.Subtração" + "\n" + "3.Divisão" + "\n" + "4.Multiplicação"))
+
+        if(operacao==1){
+            operacao = numero1+numero2
+        }else if(operacao==2){
+            operacao = numero1-numero2
+        }else if(operacao==3){
+            operacao = numero1/numero2
+        }else if(operacao==4){
+            operacao = numero1*numero2
+        }
+
+        document.write("<br>" + "Valor do cálculo é: " + operacao)
+
+    </script>
+</body>
+</html>
